@@ -1,0 +1,19 @@
+{
+  "name": "first-jenkins-job",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npx playwright test",
+    "test:spesific": "npx playwright test --grep file-name.spec.js",
+    "test:tag": "npx playwright test --grep @tagName",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  }
+}
